@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form method="post">
+<form action="Main" method="post">
 Donner un entier: <input type="number" required name="v"><input type="submit" value="tester">
 
 </form>
