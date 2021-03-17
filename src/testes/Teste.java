@@ -8,6 +8,8 @@ public class Teste {
 		// TODO Auto-generated method stub
 Calcule c=new Calcule();
 c.setN(4);
+
+System.out.println(c.toString());
 	}
 
 }

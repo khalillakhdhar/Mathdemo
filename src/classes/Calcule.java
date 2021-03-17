@@ -35,4 +35,13 @@ f*=i;
 
 return f;
 }
+
+@Override
+public String toString() {
+	return "Calcule [n=" + n + ", teste de parité =" + testepaire() + ",  la factoriel=" + factoriel() + "]";
+}
+
+
+
+
 }
