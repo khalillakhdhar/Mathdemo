@@ -41,6 +41,8 @@ public class Main extends HttpServlet {
 		String valeur=request.getParameter("v");
 		//response.getWriter().append("la valeur est"+valeur);
 		Calcule c=new Calcule();
+		c.setN(Integer.parseInt(valeur));
+		response.getWriter().append(c.toString());
 		
 	}
 
